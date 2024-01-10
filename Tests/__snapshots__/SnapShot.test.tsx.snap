@@ -1,0 +1,22 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`List of Player > renders snapshot 1`] = `
+<div
+  class="container"
+>
+  <h1
+    class="d-flex justify-content-center "
+  >
+    Chess Leaderboards
+  </h1>
+  <hr />
+  <div
+    class="spinner-container"
+    data-testid="loading"
+  >
+    <div
+      class="loading-spinner"
+    />
+  </div>
+</div>
+`;
