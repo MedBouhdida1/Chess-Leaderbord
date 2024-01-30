@@ -10,7 +10,7 @@ import { fetchDataFailure } from "../src/Store/actions";
 
 
 describe('App', () => {
-    //***********************************Integration  TEST : Happy path*********************************** والله أعلم*/
+    //***********************************Integration  TEST : Happy path***********************************/
     it('succeeds fetching data : Happy path', async () => {
 
         render(
@@ -23,7 +23,7 @@ describe('App', () => {
         await waitFor(() => expect(screen.queryByTestId('loading')).toBeNull());
         expect(screen.queryByTestId('loading')).toBeNull();
     });
-    //***********************************Integration  TEST : Unhappy path*********************************** والله أعلم*/
+    //***********************************Integration  TEST : Unhappy path**********************************/
     it('fails fetching data : unhappy path', async () => {
 
         render(<Provider store={store}>

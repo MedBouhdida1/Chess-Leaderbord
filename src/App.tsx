@@ -43,14 +43,9 @@ const App: React.FC = () => {
     }
   };
 
-
   useEffect(() => {
 
-
     fetchDataFromApi();
-
-
-
 
   }, [dispatch]);
 
@@ -62,18 +57,6 @@ const App: React.FC = () => {
       <div className="container">
         <h1 className="d-flex justify-content-center ">Chess Leaderboards</h1>
 
-        {/* Search Input and Add player Button */}
-        {/* <InputWithLabel
-          players={players}
-          currentItem={currentItem}
-          setCurrentItem={setCurrentItem}
-          setPlayers={setPlayers}
-          id="search"
-          value={searchTerm}
-          onInputChange={handleSearchInput}
-        >
-          <strong>Search by username:</strong>
-        </InputWithLabel> */}
 
         <hr />
 

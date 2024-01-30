@@ -6,8 +6,8 @@ import React from 'react';
 import { Provider } from 'react-redux';
 
 describe('Test App component', () => {
-  //***********************************UNIT TEST : Component*********************************** والله أعلم*/
-  it('Test show all player and delete V5K', async () => {
+  //***********************************UNIT TEST : Component************************************/
+  it('Test show all player ', async () => {
     render(
       <Provider store={store}>
         <App />
@@ -25,7 +25,7 @@ describe('Test App component', () => {
 
     });
 
-    //**************************SIMULATE DELET PLAYER***************** ان شاء الله */
+    //**************************SIMULATE DELET PLAYER*****************//
     console.log("player exist")
     expect(screen.getByText('V5K')).toBeInTheDocument();
     await waitFor(() => {
@@ -45,7 +45,7 @@ describe('Test App component', () => {
     });
   });
 
-  //**************************End to End Test :Simulate Search for PLAYER(tax77)***************** ان شاء الله */
+  //**************************End to End Test :Simulate Search for PLAYER(tax77)*****************/
   it('Test search for a player', async () => {
     render(
       <Provider store={store}>

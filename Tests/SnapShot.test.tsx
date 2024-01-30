@@ -6,7 +6,7 @@ import { store } from "../src/Store/store";
 import App from "../src/App";
 import React from "react";
 
-//***********************************SnapShot  TEST *********************************** والله أعلم*/
+//***********************************SnapShot  TEST ***********************************/
 describe('List of Player', () => {
     it('renders snapshot', () => {
         const { container } = render(
